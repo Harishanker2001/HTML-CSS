@@ -12,7 +12,9 @@ ul {
     overflow: hidden;
     background-color: white;
 }
-
+.div1 {
+    width: 50%;
+}
 .btn {
     margin-left: 15px;
     padding: 0.7em 0.8em;
@@ -53,8 +55,8 @@ li a {
 
 .headerimage {
     margin-right: 110px;
-    margin-left: 70px;
-    margin-top: 125px;
+    margin-left: 178px;
+    margin-top: 130px;
     margin-bottom: 50px;
     padding: 0;
     width: 75%;
@@ -82,7 +84,7 @@ li a {
 
 .text {
     font-family: 'Archivo';
-    width: 30vw;
+    
     font-weight: 700;
     margin: 372px 197px 160px -79px;
 }
