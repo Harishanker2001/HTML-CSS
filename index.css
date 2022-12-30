@@ -52,8 +52,8 @@ li a {
 
 .headerimage {
     margin-right: 110px;
-    margin-left: 92px;
-    margin-top: 117px;
+    margin-left: 70px;
+    margin-top: 125px;
     margin-bottom: 50px;
     padding: 0;
     width: 75%;
@@ -84,14 +84,14 @@ li a {
     font-family: 'Archivo';
     width: 30vw;
     font-weight: 700;
-    margin: 372px 197px 160px -79px;
+    margin: 387px 216px 173px -73px;
 }
 
 .section1 {
     display: flex;
     width: 100vw;
     padding: 50px 0px;
-    background-color: black;
+    background-color:white;
 }
 
 .welcome {
@@ -129,7 +129,7 @@ li a {
 .section2 {
     width: 100vw;
     padding: 50px 0px;
-    background-color: greenyellow;
+    background-color:white;
 }
 
 .whyNINJAschool {
@@ -149,7 +149,7 @@ li a {
     display: flex;
     width: 100vw;
     padding: 50px 0px;
-    background-color: rgb(231, 112, 15);
+    background-color: white;
 }
 
 .container3 {
@@ -168,7 +168,7 @@ li a {
     display: flex;
     width: 100vw;
     padding: 50px 0px;
-    background-color: rgb(33, 127, 243);
+    background-color:white;
 }
 
 .insidesection4 {
@@ -440,4 +440,26 @@ input[type=reset] {
 }
 .reviewbox .reviewtext {
     padding: 1.5rem 15%;
+}
+.welcome h1 {
+    margin-right: auto;
+}
+
+reviewbox .rating {
+    font-size: 1.1em;
+    font-family: inherit;
+    color: inherit;
+    letter-spacing: 3px;
+}
+.reviewbox .rating::before {
+    content: "★★★★★";
+    color: #FFBF00;
+}
+.reviewbox .reviewtext {
+    padding: 0 15% 1.5rem ;
+    color: #212529;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    white-space: pre-line;
+    font-family: 'Source Sans Pro';
 }
