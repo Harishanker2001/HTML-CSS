@@ -14,6 +14,7 @@ ul {
 }
 
 .btn {
+    margin-left: 15px;
     padding: 0.7em 0.8em;
     color: rgb(0, 0, 0);
     background: transparent;
@@ -35,7 +36,7 @@ li a {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 14px 16px;
+    padding: 9px 16px;
     text-decoration: none;
 }
 
@@ -58,7 +59,6 @@ li a {
     padding: 0;
     width: 75%;
     height: 600px;
-  
 }
 
 
@@ -84,13 +84,13 @@ li a {
     font-family: 'Archivo';
     width: 30vw;
     font-weight: 700;
-    margin: 387px 216px 173px -73px;
+    margin: 372px 197px 160px -79px;
 }
 
 .section1 {
     display: flex;
     width: 100vw;
-    padding: 50px 0px;
+    padding: 0px 0px;
     background-color:white;
 }
 
@@ -104,7 +104,12 @@ li a {
     flex-wrap: wrap;
     flex-direction: column;
     width: 350px;
+    font-size: large;
 }
+.welcome h1 {
+    margin-right: auto;
+}
+
 
 .below {
     display: flex;
@@ -128,8 +133,8 @@ li a {
 
 .section2 {
     width: 100vw;
-    padding: 50px 0px;
-    background-color:white;
+    padding: 0px 0px;
+    background-color: white;
 }
 
 .whyNINJAschool {
@@ -148,7 +153,7 @@ li a {
 .section3 {
     display: flex;
     width: 100vw;
-    padding: 50px 0px;
+    padding: 0px 0px;
     background-color: white;
 }
 
@@ -167,7 +172,7 @@ li a {
 .section4 {
     display: flex;
     width: 100vw;
-    padding: 50px 0px;
+    padding: 0px 0px;
     background-color:white;
 }
 
@@ -188,26 +193,37 @@ li a {
 }
 
 .formbox {
-    display: flex;margin-top: 50px;
+    display: flex;
+    margin-top: 50px;
 }
+
 .email {
-    width: 100%;padding-right: 10px;
+    width: 100%;
+    padding-right: 10px;
 }
+
 .phone {
-    width: 100%;padding-left: 10px;
+    width: 100%;
+    padding-left: 10px;
 }
-.form{
+
+.form {
     width: auto;
 }
-.emailbox{
-    display: block;width: 100%;
+
+.emailbox {
+    display: block;
+    width: 100%;
 }
-.phonebox{
+
+.phonebox {
     display: block;
 }
-.emailplaceholder{
+
+.emailplaceholder {
     width: 50%;
 }
+
 /* //form */
 input[type=text],
 select {
@@ -392,23 +408,29 @@ input[type=reset] {
         margin-top: 4rem;
     }
 }
+
 .space {
-    height: 4rem;color: red;
+    height: 4rem;
+    color: red;
 }
-.fix-top {
+
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    margin: 0 !important;
-    padding-left: 0;
+    padding: 1rem;
+    background: white;
+    display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .testimonialtitle {
     padding: 2rem 0;
     text-align: center;
 }
+
 .testimonialtitle .header {
     font-size: 2.5rem;
     font-weight: 700;
@@ -416,50 +438,60 @@ input[type=reset] {
     font-family: 'Archivo';
     color: #212529;
 }
+
 .testimonialtitle .header-small {
     font-weight: 400;
     font-family: 'Archivo';
     color: #343a40;
     margin-bottom: 50px;
 }
+
 .container4 .reviews {
     display: flex;
 }
+
 .container4 .reviews * {
     flex: 1 0 0%;
     text-align: center;
 }
+
 .reviewbox .rating {
     font-size: 1.1em;
     font-family: inherit;
     color: inherit;
 }
+
 .reviewbox .rating::before {
     content: "★★★★★";
     color: #FFBF00;
 }
+
 .reviewbox .reviewtext {
     padding: 1.5rem 15%;
 }
-.welcome h1 {
-    margin-right: auto;
-}
 
-reviewbox .rating {
-    font-size: 1.1em;
-    font-family: inherit;
-    color: inherit;
-    letter-spacing: 3px;
+.nav-items-list {
+    margin: 0;
+    padding: 0;
 }
-.reviewbox .rating::before {
-    content: "★★★★★";
-    color: #FFBF00;
+.logoimage {
+    height: 52px;
+    width: 52px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.reviewbox .reviewtext {
-    padding: 0 15% 1.5rem ;
-    color: #212529;
-    font-size: 1.4em;
-    line-height: 1.6em;
-    white-space: pre-line;
+.nav-items {
+    margin-left: auto;
+    margin-right: 20%;
+}
+.navbar .brand {
+    margin-left: 20%;
+    display: flex;
+}
+.navbar .navtitle {
+    font-size: 26px;
+    font-weight: 700;
     font-family: 'Source Sans Pro';
+    margin: auto 0 auto 7px;
+
 }
