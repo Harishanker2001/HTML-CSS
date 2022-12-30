@@ -51,13 +51,14 @@ li a {
 }
 
 .headerimage {
-    margin-right: 100px;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-right: 110px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0;
-    width: 50%;
+    width: 75%;
     height: 600px;
+  
 }
 
 
@@ -191,16 +192,16 @@ li a {
     display: flex;margin-top: 50px;
 }
 .email {
-    width: 50%;padding-right: 10px;
+    width: 100%;padding-right: 10px;
 }
 .phone {
-    width: 50%;padding-left: 10px;
+    width: 100%;padding-left: 10px;
 }
 .form{
-    width: fit-content;
+    width: auto;
 }
 .emailbox{
-    display: block;
+    display: block;width: 100%;
 }
 .phonebox{
     display: block;
@@ -232,7 +233,7 @@ select {
 
 input[type=email],
 select {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -392,3 +393,7 @@ input[type=reset] {
         margin-top: 4rem;
     }
 }
+.space {
+    height: 4rem;color: red;
+}
+
